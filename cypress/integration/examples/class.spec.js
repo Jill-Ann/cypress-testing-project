@@ -30,4 +30,8 @@ describe('Abstraction with classes', () => {
         HomePage.scrollToTop()
         HomePage.wait(3000)
     })
+
+    it.skip('should do more stuff', () => {
+        // do stuff
+    })
 })
