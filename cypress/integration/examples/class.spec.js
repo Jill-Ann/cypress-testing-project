@@ -19,6 +19,10 @@ class HomePage extends BasePage {
 }
 
 describe('Abstraction with classes', () => {
+    before(function() {
+        Homepage.loadHomePage()
+    })
+
     it('should scroll up and down the page', () => {
         HomePage.loadHomePage()
         HomePage.scrollToBottom()
